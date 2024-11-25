@@ -124,6 +124,14 @@ ul, ol{
     width: 100%;
 }
 
+.imagem_localizacao img{
+    width: 100%;
+}
+
+.imagem_esportes img{
+    width: 100%;
+}
+
 .tabela_populacao{
     border-collapse: separate;
     width: 100%;
@@ -140,22 +148,24 @@ ul, ol{
     }
 }
 
-.patio_shopping{
+.patio_shopping img{
     padding: 10px;
-    width: 100%;
+    border-radius: 8px;
 }
 
-.parque_cidade{
+.parque_cidade img{
     padding: 10px;
-    width: 100%;
+    border-radius: 8px;
 }
 
-.teatro_vitoria{
+.teatro_vitoria img{
     padding: 10px;
+    border-radius: 8px;
 }
 
-.horto_florestal{
+.horto_florestal img{
     padding: 10px;
+    border-radius: 8px;
 }
 
 
