@@ -104,6 +104,41 @@ ul, ol{
     margin-left: 18px;
 } 
 
+/*Formatação da Home*/
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    .card{
+        width: 32%;
+        border: 1px solid var(--cinza_bbb);
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 8px;
+        img{
+            width: 100%;
+            border-radius: 8px 8px 0px 0px      /*top-left, top-right, bottom-right, bottom-left*/
+        }
+        p{
+            font-weight: 300;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        a{
+            color: var(--cinza_escuro);
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: forestgreen;
+        }
+    }
+}
+
 .tabela_distancias{
     border-collapse: separate;
     width: 100%;
@@ -118,18 +153,6 @@ ul, ol{
         background-color: var(--verde_translucido);
         padding: 10px;
     }
-}
-
-.imagem_populacao img{
-    width: 100%;
-}
-
-.imagem_localizacao img{
-    width: 100%;
-}
-
-.imagem_esportes img{
-    width: 100%;
 }
 
 .tabela_populacao{
@@ -147,6 +170,43 @@ ul, ol{
         padding: 10px;
     }
 }
+
+.tabela_de_prefeitos{
+    border-collapse: separate;
+    width: 100%;
+    
+    th{
+        background-color: var(--verde);
+        color: var(--branco);
+        padding: 8px;
+        text-align: start;
+    }
+    td{
+        background-color: var(--verde_translucido);
+        padding: 10px;
+    }
+
+}
+.imagem_prefeitos img{
+    width: 100%;
+}
+
+.imagem_populacao img{
+    width: 100%;
+}
+
+.imagem_localizacao img{
+    width: 100%;
+}
+
+.imagem_esportes img{
+    width: 100%;
+}
+
+.imagem_prefeitos{
+    width: 100%;
+}
+
 
 .patio_shopping img{
     padding: 10px;
