@@ -229,6 +229,73 @@ ul, ol{
 }
 
 
+/*VERSAO RESPONSIVA*/
+
+@media screen and (max-width: 600px){
+
+    nav, article, main, footer {
+        width: 100%;           
+    }
+
+    nav img{
+        width: 50%;   
+        align-items: center;
+        margin-left: 45px;   
+    }
+
+    nav{
+        display: block;                           
+        text-align: center;       
+        span{
+            display: block;
+        }                   
+    }
+
+    article,main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .imagens{
+        display: block;
+        img{
+            width: 100%;
+        }
+    }
+
+    .home{
+
+        display: block;
+        .card{
+            width: 100%;
+        }
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .patio_shopping img{
+        width: 100%;
+    }
+    
+    .parque_cidade img{
+        width: 100%;
+    }
+    
+    .teatro_vitoria img{
+        width: 100%;
+    }
+    
+    .horto_florestal img{
+        width: 100%;            
+    }
+
+
+}
+
+
+
 
 
 
